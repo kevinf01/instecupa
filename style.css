@@ -127,6 +127,7 @@ p {
     font-size: 15px;
     border: 1px solid #ffffff;
     margin: 10px 0;
+    align-items: flex-end;
 }
 .btn:hover {
     opacity: .6;
@@ -139,14 +140,14 @@ p {
 
 /* fin  de los estilos del nuevo nav  */
 
-/* inicio play grid  */
+/* inicio play grid sorido0 */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     margin-top: 20px;
 }
-/* fin play grid  */
+/* fin play grid sorido0  */
 
 
 
