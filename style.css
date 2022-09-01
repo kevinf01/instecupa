@@ -243,12 +243,20 @@ nav > a:hover {
 /*Comienza la segunda seccion*/
 
 #segunda-seccion{
-    background-color: #f4f5f9;
+    background-color: rgb(0, 0, 0);
     min-height: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
+}
+
+#segunda-seccion > p{
+    color: #fff;
+}
+
+.ubicacion{
+    text-align: center;
 }
 
 .redes{
@@ -455,6 +463,11 @@ footer{
     margin-bottom: 10px;
 }
 
+.titulo-final{
+    text-align: center;
+    justify-content: center ;
+}
+
 .content-foo p{
     color: #ccc;
 }
@@ -505,6 +518,11 @@ footer{
     font-weight: 900;
 }
 
+.titulo-final > h3 {
+    text-align: center;
+    justify-content: center;
+}
+
 /*video*/
 .video {margin: auto;
 display: flex;
@@ -523,3 +541,134 @@ padding-bottom: 5rem;
     margin-bottom: 1rem.5rem;
 
 }
+
+/*inicio css congreso*/
+
+.congreso{
+    text-align: center;
+}
+.congresob{
+    text-align: center;
+}
+
+.congreso > img{
+    width: 500px;
+    height: 300px;
+}
+.congresob > img{
+    width: 500px;
+    height: 300px;
+}
+
+
+.visita-congreso >h4 {
+    text-align: center;
+}
+
+
+.congresoc > img{
+    width: 500px;
+    height: 300px;
+}
+
+/*fin css congreso*/
+
+/*inicio css dia independecia*/
+
+.independencia{
+    text-align: center;
+}
+.independenciab{
+    text-align: center;
+}
+
+.independencia > img{
+    width: 500px;
+    height: 300px;
+}
+.independenciab > img{
+    width: 500px;
+    height: 300px;
+}
+
+
+.dia-independencia >h4 {
+    text-align: center;
+}
+
+
+.independenciac > img{
+    width: 500px;
+    height: 300px;
+}
+
+
+/*FIN css dia independecia*/
+
+
+/*Esto es lo nuevo Ruddy Araujo*/
+
+.inaguracion {
+    text-align: center;
+}
+
+.inaguracionb {
+    text-align: center;
+}
+
+
+.inaguracion > img{
+    width: 500px;
+    height: 300px;
+
+}
+
+
+
+.inaguracionb > img{
+    
+    width: 500px;
+    height: 300px;
+
+}
+
+.inaguracionc {
+    text-align: center;
+
+}
+
+.inaguracionc > img{
+    width: 500px;
+    height: 300px;
+}
+
+.enfermero{
+    text-align: center;
+}
+
+.enfermerob{
+    text-align: center;
+}
+
+.enfermero > img{
+    width: 500px;
+    height: 300px;
+
+}
+
+.enfermerob > img{
+    width: 500px;
+    height: 300px;
+}
+
+.enfermeroc{
+    text-align: center;
+}
+
+.enfermeroc > img{
+    width: 500px;
+    height: 300px;
+
+}
+
+/*FIN css inauguracion y dia enfermera*/
