@@ -1,4 +1,4 @@
-alert(" En estos momentos estamos realizaddo cambios")
+console.log(" En estos momentos estamos realizaddo cambios")
 
 console.log('Hola esto vivo')
 

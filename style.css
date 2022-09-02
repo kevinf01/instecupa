@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'noto sans',sans-serif;
+    font-family: 'noto sans', sans-serif;
     color: #222222;
 }
 
@@ -21,7 +21,7 @@ a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -40,14 +40,15 @@ p {
     display: flex;
 }
 
-.nav-main ul li{
+.nav-main ul li {
     padding: 6px;
 }
 
 .nav-main ul li a:hover {
     border-bottom: 2px solid #ffffff;
 }
-.nav-main ul.nav-menu{
+
+.nav-main ul.nav-menu {
     flex: 1;
     margin-left: 20px;
 }
@@ -58,7 +59,7 @@ p {
 
 
 @media screen and (max-width: 600px) {
-   
+
     .menu-btn {
         display: block;
     }
@@ -75,7 +76,8 @@ p {
         transform: translatex(-500px);
         transition: transform .5s ease-in-out;
     }
-    .nav-main ul.nav-menu-derecha{
+
+    .nav-main ul.nav-menu-derecha {
         margin-right: 20px;
     }
 
@@ -83,19 +85,20 @@ p {
         transform: translateX(-20px);
     }
 
-    .nav-main ul.nav-menu li{
+    .nav-main ul.nav-menu li {
         padding: 20px;
         font-size: 17px;
     }
+
     .cards-banner-one .content {
         width: 80%;
         padding: 60px 20px;
         justify-content: flex-end;
     }
-  }
+}
 
-  
-  @media screen and (max-width: 300px) {
+
+@media screen and (max-width: 300px) {
 
     .cards-banner-one .content {
         width: 100%;
@@ -104,7 +107,7 @@ p {
     }
 }
 
-.showcase{
+.showcase {
     width: 100%;
     height: 550px;
     background: url(img/escritorio2.jpg) no-repeat center center/cover;
@@ -116,6 +119,7 @@ p {
     justify-content: flex-end;
 
 }
+
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -129,12 +133,13 @@ p {
     margin: 10px 0;
     align-items: flex-end;
 }
-.btn:hover {
-    opacity: .6;
-} 
 
-.showcase h2
-.showcase p {
+.btn-verde:hover {
+    opacity: .6;
+    background: #000;
+}
+
+.showcase h2 .showcase p {
     margin-bottom: 10px;
 }
 
@@ -144,9 +149,10 @@ p {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 5px;
     margin-top: 20px;
 }
+
 /* fin play grid sorido0  */
 
 
@@ -157,13 +163,18 @@ p {
     text-decoration: none;
     color: white;
     font-size: 0.8rem;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     background-color: #55efc4;
     padding: 1rem 2rem;
     display: inline-block;
     align-self: center;
+    border-radius: 45px;
+    -webkit-border-radius: 45;
+    -moz-border-radius: 45;
+    -ms-border-radius: 45;
+    -o-border-radius: 45;
 }
 
 .frase {
@@ -175,14 +186,14 @@ p {
 
 /*comienza primera seccion*/
 
-.primera-seccion{
-    background: linear-gradient(rgba(68,13,13,0.35),rgba(38,2,2,0.445)),url(qqq.jpg) no-repeat center/cover;
+.primera-seccion {
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38, 2, 2, 0.445)), url(qqq.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
 }
 
-#barra-navegacion{
+#barra-navegacion {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -190,24 +201,26 @@ p {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-#logo{
+
+#logo {
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
     font-stretch: wider;
 }
-nav > a {
+
+nav>a {
     text-decoration: none;
     color: white;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-nav > a:hover {
+nav>a:hover {
     color: #44bd32;
 }
 
-#primera-seccion-contenido{
+#primera-seccion-contenido {
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
@@ -215,22 +228,22 @@ nav > a:hover {
 
 }
 
-#primera-seccion-contendido>p{
+#primera-seccion-contendido>p {
     text-transform: capitalize;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
-#primera-seccion-contendido> hr{
+#primera-seccion-contendido>hr {
     width: 4.5rem;
     border-color: #44bd32;
 
 }
 
-#primera-seccion-contendido> h1 {
-    font-family: 'montserrant',sans-serif;
+#primera-seccion-contendido>h1 {
+    font-family: 'montserrant', sans-serif;
     text-transform: uppercase;
     font-size: 4rem;
     font-weight: 700;
@@ -242,7 +255,7 @@ nav > a:hover {
 
 /*Comienza la segunda seccion*/
 
-#segunda-seccion{
+#segunda-seccion {
     background-color: rgb(0, 0, 0);
     min-height: 10rem;
     display: flex;
@@ -251,76 +264,75 @@ nav > a:hover {
     padding: 3rem;
 }
 
-#segunda-seccion > p{
+#segunda-seccion>p {
     color: #fff;
 }
 
-.ubicacion{
+.ubicacion {
     text-align: center;
 }
 
-.redes{
-   text-align: center;
+.redes {
+    text-align: center;
 }
 
 /*termina segunda seccion*/
 
 /*tercera seccion*/
-#tercera-seccion{
+#tercera-seccion {
     margin: auto;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 100%;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0.5em;
 }
 
-#titulo{
+#titulo {
     margin-bottom: 2rem;
 
 }
 
-#titulo > h2 {
+#titulo>h2 {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-#titulo > hr {
+#titulo>hr {
     width: 100%;
     border-color: rgb(28 28 28 / 90%);
 }
 
 
 
-#container-tercera-seccion{
+#container-tercera-seccion {
     text-align: center;
-    display: flex;
     flex-direction: row;
-
 }
-.img-tercera{
+
+.img-tercera {
     padding-right: 1rem;
     padding-left: 1rem;
 
 }
 
-.container-img > h6 {
+.container-img>h6 {
     text-align: center;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 1.3rem;
     font-weight: 200;
     margin-bottom: 1rem.5rem;
 }
 
-.container-img p{
+.container-img p {
     margin-bottom: 2rem;
 
 }
 
-.container-img > img {
+.container-img>img {
     max-width: 70%;
 }
 
@@ -330,9 +342,9 @@ nav > a:hover {
 /*comienza cuarta seccion*/
 
 
-#cuarta-seccion{
+#cuarta-seccion {
 
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url(portada.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(portada.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -340,27 +352,27 @@ nav > a:hover {
     flex-direction: column;
 }
 
-#contenedor{
+#contenedor {
     width: 80%;
     margin: auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 
-.mitad{
+.mitad {
     width: 50%;
 
 }
 
-#cuarta-seccion-der >h3 {
+#cuarta-seccion-der>h3 {
     text-transform: uppercase;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
-#cuarta-seccion-der >hr {
+#cuarta-seccion-der>hr {
     width: 4rem;
     border-color: #44bd32;
     margin-left: 0;
@@ -368,14 +380,14 @@ nav > a:hover {
 
 }
 
-#cuarta-seccion-der >p {
+#cuarta-seccion-der>p {
     margin-bottom: 4rem;
 
 }
 
 /*acaba 4ta seccion*/
 /*comienza la quinta seccion*/
-#quinta-seccion{
+#quinta-seccion {
     width: 80%;
     margin: auto;
     display: flex;
@@ -384,111 +396,73 @@ nav > a:hover {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-#quinta-seccion-izquierda{
+
+#quinta-seccion-izquierda {
     flex: 1;
 }
 
-#quinta-seccion-izquierda >h3 {
+#quinta-seccion-izquierda>h3 {
     text-transform: uppercase;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
 
 }
 
-#quinta-seccion-izquierda >p{
+#quinta-seccion-izquierda>p {
     margin-bottom: 4rem;
 
 }
 
-#quinta-seccion-derecha{
+#quinta-seccion-derecha {
     flex: 2;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px 10px;
     justify-items: center;
     align-items: center;
 }
 
-#quinta-seccion-derecha > img{
+#quinta-seccion-derecha>img {
     max-width: 100%;
 
 }
 
-#quinta-seccion-derecha >hr {
+#quinta-seccion-derecha>hr {
     width: 4.5rem;
     border-color: #44bd32;
     margin-left: 0;
     margin-bottom: 3rem;
 }
+
 /*termina quinta*/
-/*empieza footer*/
 
-footer{
-    background-color: black;
-    color: white;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-    display: flex;
-    flex-direction: column;
+
+
+.titulo-final {
     text-align: center;
-
+    justify-content: center;
 }
 
-footer{
-    background: #000000;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-}
 
-.contenedor-footer{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-}
-
-.content-foo{
-    text-align: center;
-}
-
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #0cdf64;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.titulo-final{
-    text-align: center;
-    justify-content: center ;
-}
-
-.content-foo p{
-    color: #ccc;
-}
-
-#historia{
+#historia {
     text-align: center;
     font-weight: 900;
 }
 
-.nuestroinstituto >p {
+.nuestroinstituto>p {
     text-align: center;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.mision >ul {
+.mision>ul {
     text-align: center;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     margin-left: 50px;
@@ -500,13 +474,13 @@ footer{
     font-weight: 900;
 }
 
-#misioncom >h4{
+#misioncom>h4 {
     text-align: center;
 }
 
 .vision {
     text-align: center;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     margin-left: 50px;
@@ -518,24 +492,42 @@ footer{
     font-weight: 900;
 }
 
-.titulo-final > h3 {
+.titulo-final>h3 {
     text-align: center;
     justify-content: center;
 }
 
-/*video*/
-.video {margin: auto;
-display: flex;
-flex-direction:column;
-width: 60%;
-height: auto;
-padding-top: 5rem;
-padding-bottom: 5rem;
+/**/
+
+.titulo-final {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-.video > h1 {
+/**/
+
+/*video*/
+.video {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+}
+
+.youtube {
+    width: 100%;
+    height: 400px;
+    margin: 30px auto;
+}
+
+.video>h1 {
     text-align: center;
-    font-family: 'montserrant',sans-serif;
+    font-family: 'montserrant', sans-serif;
     font-size: 2.5rem;
     font-weight: 200;
     margin-bottom: 1rem.5rem;
@@ -544,29 +536,31 @@ padding-bottom: 5rem;
 
 /*inicio css congreso*/
 
-.congreso{
-    text-align: center;
-}
-.congresob{
+.congreso {
     text-align: center;
 }
 
-.congreso > img{
+.congresob {
+    text-align: center;
+}
+
+.congreso>img {
     width: 500px;
     height: 300px;
 }
-.congresob > img{
+
+.congresob>img {
     width: 500px;
     height: 300px;
 }
 
 
-.visita-congreso >h4 {
+.visita-congreso>h4 {
     text-align: center;
 }
 
 
-.congresoc > img{
+.congresoc>img {
     width: 500px;
     height: 300px;
 }
@@ -575,29 +569,31 @@ padding-bottom: 5rem;
 
 /*inicio css dia independecia*/
 
-.independencia{
-    text-align: center;
-}
-.independenciab{
+.independencia {
     text-align: center;
 }
 
-.independencia > img{
+.independenciab {
+    text-align: center;
+}
+
+.independencia>img {
     width: 500px;
     height: 300px;
 }
-.independenciab > img{
+
+.independenciab>img {
     width: 500px;
     height: 300px;
 }
 
 
-.dia-independencia >h4 {
+.dia-independencia>h4 {
     text-align: center;
 }
 
 
-.independenciac > img{
+.independenciac>img {
     width: 500px;
     height: 300px;
 }
@@ -617,7 +613,7 @@ padding-bottom: 5rem;
 }
 
 
-.inaguracion > img{
+.inaguracion>img {
     width: 500px;
     height: 300px;
 
@@ -625,8 +621,8 @@ padding-bottom: 5rem;
 
 
 
-.inaguracionb > img{
-    
+.inaguracionb>img {
+
     width: 500px;
     height: 300px;
 
@@ -637,38 +633,107 @@ padding-bottom: 5rem;
 
 }
 
-.inaguracionc > img{
+.inaguracionc>img {
     width: 500px;
     height: 300px;
 }
 
-.enfermero{
+.enfermero {
     text-align: center;
 }
 
-.enfermerob{
+.enfermerob {
     text-align: center;
 }
 
-.enfermero > img{
+.enfermero>img {
     width: 500px;
     height: 300px;
 
 }
 
-.enfermerob > img{
+.enfermerob>img {
     width: 500px;
     height: 300px;
 }
 
-.enfermeroc{
+.enfermeroc {
     text-align: center;
 }
 
-.enfermeroc > img{
+.enfermeroc>img {
     width: 500px;
     height: 300px;
 
 }
 
 /*FIN css inauguracion y dia enfermera*/
+
+
+
+/* footer inicio */
+
+/*empieza footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-contacto {
+    grid-area: header;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-dirrecion {
+    grid-area: este;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.copyR {
+    grid-area: footer;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header este'
+
+        'footer footer';
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.footer-contacto>p {
+    text-align: center;
+
+}
+
+.footer-dirrecion>p {
+    text-align: center;
+}
+
+/*footer Final*/
+
+/**/
+@media screen and (max-width: 600px) {
+
+    iframe {
+        width: 100%;
+        height: 40%;
+    }
+}
+
+iframe {
+    max-width: 450px;
+}
+
+/**/
