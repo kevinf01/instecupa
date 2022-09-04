@@ -187,7 +187,7 @@ p {
 /*comienza primera seccion*/
 
 .primera-seccion {
-    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38, 2, 2, 0.445)), url(/img/qqq.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38, 2, 2, 0.445)), url(img/qqq.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -344,7 +344,7 @@ nav>a:hover {
 
 #cuarta-seccion {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(./img/portada.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(img/portada.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
